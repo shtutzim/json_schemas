@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['trigger_crash_dump'], 'type': 'object', 'properties': {'trigger_crash_dump': {'type': 'null'}}}

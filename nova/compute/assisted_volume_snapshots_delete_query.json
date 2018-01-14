@@ -1,0 +1,1 @@
+{'additionalProperties': True, 'type': 'object', 'properties': {'delete_info': {'items': {'type': 'string'}, 'type': 'array'}}}

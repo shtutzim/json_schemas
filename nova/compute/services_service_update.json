@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['host', 'binary'], 'type': 'object', 'properties': {'binary': {'minLength': 1, 'type': 'string', 'maxLength': 255}, 'host': {'minLength': 1, 'type': 'string', 'pattern': '^[a-zA-Z0-9-._]*$', 'maxLength': 255}, 'disabled_reason': {'minLength': 1, 'type': 'string', 'maxLength': 255}}}

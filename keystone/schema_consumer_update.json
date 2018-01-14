@@ -1,0 +1,18 @@
+{
+    "not": {
+        "required": [
+            "secret"
+        ]
+    },
+    "additionalProperties": true,
+    "type": "object",
+    "properties": {
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "minProperties": 1
+}

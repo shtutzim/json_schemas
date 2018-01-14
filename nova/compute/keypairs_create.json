@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['keypair'], 'type': 'object', 'properties': {'keypair': {'additionalProperties': False, 'required': ['name'], 'type': 'object', 'properties': {'public_key': {'type': 'string'}, 'name': {'minLength': 1, 'format': 'name', 'type': 'string', 'maxLength': 255}}}}}

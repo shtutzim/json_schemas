@@ -1,0 +1,1 @@
+{'additionalProperties': True, 'type': 'object', 'properties': {'detailed': {'items': {'type': 'string'}, 'type': 'array'}, 'start': {'items': {'type': 'string'}, 'type': 'array'}, 'end': {'items': {'type': 'string'}, 'type': 'array'}}}

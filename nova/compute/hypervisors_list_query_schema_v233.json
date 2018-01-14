@@ -1,0 +1,1 @@
+{'additionalProperties': True, 'type': 'object', 'properties': {'marker': {'items': {'type': 'string'}, 'type': 'array'}, 'limit': {'items': {'pattern': '^[0-9]*$', 'minimum': 0, 'type': ['integer', 'string'], 'minLength': 1}, 'type': 'array'}}}

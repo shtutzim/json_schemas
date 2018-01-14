@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['os-getConsoleOutput'], 'type': 'object', 'properties': {'os-getConsoleOutput': {'additionalProperties': False, 'type': 'object', 'properties': {'length': {'pattern': '^-?[0-9]+$', 'minimum': -1, 'type': ['integer', 'string', 'null']}}}}}

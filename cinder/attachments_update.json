@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['attachment'], 'type': 'object', 'properties': {'type': 'object', 'attachment': {'additionalProperties': False, 'required': ['connector'], 'type': 'object', 'properties': {'connector': {'type': 'object', 'minProperties': 1}}}}}

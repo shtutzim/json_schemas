@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['extra_specs'], 'type': 'object', 'properties': {'extra_specs': {'additionalProperties': False, 'type': 'object', 'patternProperties': {'^[a-zA-Z0-9-_:. ]{1,255}$': {'type': ['string', 'number'], 'maxLength': 255}}}}}

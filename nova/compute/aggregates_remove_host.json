@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['remove_host'], 'type': 'object', 'properties': {'type': 'object', 'remove_host': {'additionalProperties': False, 'required': ['host'], 'type': 'object', 'properties': {'host': {'minLength': 1, 'type': 'string', 'pattern': '^[a-zA-Z0-9-._]*$', 'maxLength': 255}}}}}

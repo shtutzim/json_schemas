@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'patternProperties': {'^[a-zA-Z0-9-_:. ]{1,255}$': {'type': ['string', 'number'], 'maxLength': 255}}, 'maxProperties': 1, 'type': 'object', 'minProperties': 1}

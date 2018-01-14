@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['evacuate'], 'type': 'object', 'properties': {'evacuate': {'additionalProperties': False, 'type': 'object', 'properties': {'host': {'minLength': 1, 'maxLength': 255, 'type': 'string', 'pattern': '^[a-zA-Z0-9-._]*$'}, 'adminPass': {'type': 'string'}}}}}

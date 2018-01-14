@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['name'], 'type': 'object', 'properties': {'name': {'pattern': '^CUSTOM\\_[A-Z0-9_]+$', 'type': 'string', 'maxLength': 255}}}

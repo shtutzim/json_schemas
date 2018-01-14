@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['reset_status'], 'type': 'object', 'properties': {'reset_status': {'additionalProperties': False, 'required': ['status'], 'type': 'object', 'properties': {'status': {'type': 'string', 'format': 'group_snapshot_status'}}}, 'type': 'object'}}

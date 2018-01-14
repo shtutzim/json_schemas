@@ -1,0 +1,1 @@
+{"required": ["name", "filters"], "type": "object", "properties": {"description": {"type": ["string", "null"]}, "filters": {"type": "object"}, "name": {"minLength": 1, "type": "string", "pattern": "[\\S]+", "maxLength": 255}}}

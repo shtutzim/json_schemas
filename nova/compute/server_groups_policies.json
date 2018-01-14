@@ -1,0 +1,1 @@
+{'uniqueItems': True, 'items': [{'enum': ['anti-affinity', 'affinity', 'soft-anti-affinity', 'soft-affinity'], 'type': 'string'}], 'additionalItems': False, 'type': 'array'}

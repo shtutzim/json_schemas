@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['ip_range'], 'type': 'object', 'properties': {'ip_range': {'pattern': '^[0-9./a-fA-F]*$', 'type': 'string'}}}

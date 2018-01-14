@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['volumeAttachment'], 'type': 'object', 'properties': {'volumeAttachment': {'additionalProperties': False, 'required': ['volumeId'], 'type': 'object', 'properties': {'volumeId': {'type': 'string', 'format': 'uuid'}}}}}

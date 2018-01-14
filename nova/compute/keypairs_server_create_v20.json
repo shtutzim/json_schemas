@@ -1,0 +1,1 @@
+{'key_name': {'minLength': 1, 'format': 'name_with_leading_trailing_spaces', 'type': 'string', 'maxLength': 255}}

@@ -1,0 +1,1 @@
+{'additionalProperties': True, 'type': 'object', 'properties': {'exclude': {'items': {'type': 'string'}, 'type': 'array'}, 'include': {'items': {'type': 'string'}, 'type': 'array'}, 'all_tenants': {'items': {'type': 'string'}, 'type': 'array'}}}

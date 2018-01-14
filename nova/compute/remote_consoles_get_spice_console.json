@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['os-getSPICEConsole'], 'type': 'object', 'properties': {'os-getSPICEConsole': {'additionalProperties': False, 'required': ['type'], 'type': 'object', 'properties': {'type': {'enum': ['spice-html5'], 'type': 'string'}}}}}

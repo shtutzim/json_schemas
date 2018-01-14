@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['addFixedIp'], 'type': 'object', 'properties': {'addFixedIp': {'additionalProperties': False, 'required': ['networkId'], 'type': 'object', 'properties': {'networkId': {'minLength': 1, 'type': ['string', 'number'], 'maxLength': 36}}}}}

@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['resize'], 'type': 'object', 'properties': {'resize': {'additionalProperties': False, 'required': ['flavorRef'], 'type': 'object', 'properties': {'flavorRef': {'minLength': 1, 'type': ['string', 'integer']}, 'OS-DCF:diskConfig': {'enum': ['AUTO', 'MANUAL'], 'type': 'string'}}}}}

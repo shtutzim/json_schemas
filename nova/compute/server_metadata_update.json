@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['meta'], 'type': 'object', 'properties': {'meta': {'additionalProperties': False, 'type': 'object', 'maxProperties': 1, 'patternProperties': {'^[a-zA-Z0-9-_:. ]{1,255}$': {'type': 'string', 'maxLength': 255}}, 'minProperties': 1}}}

@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['reboot'], 'type': 'object', 'properties': {'reboot': {'additionalProperties': False, 'required': ['type'], 'type': 'object', 'properties': {'type': {'enum': ['HARD', 'Hard', 'hard', 'SOFT', 'Soft', 'soft'], 'type': 'string'}}}}}

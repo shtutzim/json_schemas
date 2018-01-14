@@ -1,0 +1,1 @@
+{'security_groups': {'items': {'additionalProperties': False, 'type': 'object', 'properties': {'name': {'minLength': 1, 'format': 'name_with_leading_trailing_spaces', 'type': 'string', 'maxLength': 255}}}, 'type': 'array'}}

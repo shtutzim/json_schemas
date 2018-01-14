@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['reserve'], 'type': 'object', 'properties': {'reserve': {'enum': ['None', None, {}]}}}

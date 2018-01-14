@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['associate_host'], 'type': 'object', 'properties': {'associate_host': {'minLength': 1, 'type': 'string', 'pattern': '^[a-zA-Z0-9-._]*$', 'maxLength': 255}}}

@@ -1,0 +1,1 @@
+{"additionalProperties": true, "required": ["name"], "type": "object", "properties": {"name": {"minLength": 1, "type": "string", "pattern": "[\\S]+", "maxLength": 255}}}

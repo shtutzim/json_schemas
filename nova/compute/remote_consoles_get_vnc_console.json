@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['os-getVNCConsole'], 'type': 'object', 'properties': {'os-getVNCConsole': {'additionalProperties': False, 'required': ['type'], 'type': 'object', 'properties': {'type': {'enum': ['novnc', 'xvpvnc'], 'type': 'string'}}}}}

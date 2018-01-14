@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['addFloatingIp'], 'type': 'object', 'properties': {'addFloatingIp': {'additionalProperties': False, 'required': ['address'], 'type': 'object', 'properties': {'fixed_address': {'oneOf': [{'format': 'ipv4'}, {'format': 'ipv6'}], 'type': 'string'}, 'address': {'oneOf': [{'format': 'ipv4'}, {'format': 'ipv6'}], 'type': 'string'}}}}}

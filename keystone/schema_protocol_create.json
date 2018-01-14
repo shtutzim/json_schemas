@@ -1,0 +1,1 @@
+{"additionalProperties": false, "required": ["mapping_id"], "type": "object", "properties": {"mapping_id": {"minLength": 1, "type": "string", "pattern": "^[a-zA-Z0-9-_]+$", "maxLength": 64}}}

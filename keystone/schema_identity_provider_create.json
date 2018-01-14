@@ -1,0 +1,1 @@
+{"additionalProperties": false, "type": "object", "properties": {"remote_ids": {"uniqueItems": true, "items": {"type": "string"}, "type": ["array", "null"]}, "enabled": {"enum": [true, false], "type": "boolean"}, "description": {"type": ["string", "null"]}, "domain_id": {"minLength": 1, "maxLength": 64, "type": ["string", "null"], "pattern": "^[a-zA-Z0-9-]+$"}}}

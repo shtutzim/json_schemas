@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'type': 'object', 'properties': {'status': {'enum': ['enable', 'disable', 'Enable', 'Disable', 'ENABLE', 'DISABLE'], 'type': 'string'}, 'maintenance_mode': {'enum': ['enable', 'disable', 'Enable', 'Disable', 'ENABLE', 'DISABLE'], 'type': 'string'}, 'anyOf': [{'required': ['status']}, {'required': ['maintenance_mode']}]}}

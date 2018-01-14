@@ -1,0 +1,1 @@
+{'additionalProperties': True, 'type': 'object', 'properties': {'binary': {'items': {'type': 'string'}, 'type': 'array'}, 'host': {'items': {'type': 'string'}, 'type': 'array'}}}

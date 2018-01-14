@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['os-getRDPConsole'], 'type': 'object', 'properties': {'os-getRDPConsole': {'additionalProperties': False, 'required': ['type'], 'type': 'object', 'properties': {'type': {'enum': ['rdp-html5'], 'type': 'string'}}}}}

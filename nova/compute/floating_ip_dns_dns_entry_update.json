@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['dns_entry'], 'type': 'object', 'properties': {'dns_entry': {'additionalProperties': False, 'required': ['ip', 'dns_type'], 'type': 'object', 'properties': {'dns_type': {'enum': ['a', 'A'], 'type': 'string'}, 'ip': {'oneOf': [{'format': 'ipv4'}, {'format': 'ipv6'}], 'type': 'string'}}}}}

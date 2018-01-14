@@ -1,0 +1,12 @@
+{
+    "additionalProperties": true,
+    "type": "object",
+    "properties": {
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

@@ -1,0 +1,1 @@
+{"additionalProperties": true, "type": "object", "properties": {"parent_region_id": {"type": ["string", "null"]}, "description": {"type": ["string", "null"]}, "id": {"type": "string"}}, "minProperties": 1}

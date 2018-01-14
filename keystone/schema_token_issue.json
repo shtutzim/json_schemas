@@ -1,0 +1,77 @@
+{
+    "type": "object",
+    "properties": {
+        "auth" : {
+            "type": "object",
+            "properties": {
+                "identity": {
+                    "type": "object",
+                    "properties": {
+                        "methods": {
+                            "type": "array",
+                            "items": {"type": "string"}
+                        },
+                        "password": {
+                            "type": "object",
+                            "properties": {
+                                "user": {
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {"type": "string"},
+                                        "name": {"type": "string"},
+                                        "password": {"type": "string"},
+                                        "domain": {
+                                            "type": "object",
+                                            "properties": {
+                                                "id": {"type": "string"},
+                                                "name": {"type": "string"}
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "token": {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": ["id"]
+                        }
+                    },
+                    "required": ["methods"]
+                },
+                "scope": {
+                    "type": ["object", "string"],
+                    "properties": {
+                        "project": {
+                            "type": "object",
+                            "properties": {
+                                "name": {"type": "string"},
+                                "id": {"type": "string"},
+                                "domain": {
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {"type": "string"},
+                                        "name": {"type": "string"}
+                                    }
+                                }
+                            }
+                        },
+                        "domain": {
+                            "type": "object",
+                            "properties": {
+                                "id": {"type": "string"},
+                                "name": {"type": "string"}
+                            }
+                        }
+                    }
+                }
+            },
+            "required": ["identity"]
+        }
+    }
+}
+

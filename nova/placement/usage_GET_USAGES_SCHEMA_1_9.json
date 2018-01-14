@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['project_id'], 'type': 'object', 'properties': {'project_id': {'minLength': 1, 'type': 'string', 'maxLength': 255}, 'user_id': {'minLength': 1, 'type': 'string', 'maxLength': 255}}}

@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['os-resetState'], 'type': 'object', 'properties': {'os-resetState': {'additionalProperties': False, 'required': ['state'], 'type': 'object', 'properties': {'state': {'enum': ['active', 'error'], 'type': 'string'}}}}}

@@ -1,0 +1,1 @@
+{'additionalProperties': True, 'type': 'object', 'properties': {'user_id': {'items': {'type': 'string'}, 'type': 'array'}}}

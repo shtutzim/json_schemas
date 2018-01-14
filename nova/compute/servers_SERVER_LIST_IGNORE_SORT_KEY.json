@@ -1,0 +1,1 @@
+['architecture', 'cell_name', 'cleaned', 'default_ephemeral_device', 'default_swap_device', 'deleted', 'deleted_at', 'disable_terminate', 'ephemeral_gb', 'ephemeral_key_uuid', 'id', 'key_data', 'launched_on', 'locked', 'memory_mb', 'os_type', 'reservation_id', 'root_gb', 'shutdown_terminate', 'user_data', 'vcpus', 'vm_mode']

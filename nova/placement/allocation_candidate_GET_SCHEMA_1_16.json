@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['resources'], 'type': 'object', 'properties': {'limit': {'pattern': '^[1-9][0-9]*$', 'minimum': 1, 'type': ['integer', 'string'], 'minLength': 1}, 'resources': {'type': 'string'}}}

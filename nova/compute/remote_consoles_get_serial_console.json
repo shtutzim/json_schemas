@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['os-getSerialConsole'], 'type': 'object', 'properties': {'os-getSerialConsole': {'additionalProperties': False, 'required': ['type'], 'type': 'object', 'properties': {'type': {'enum': ['serial'], 'type': 'string'}}}}}

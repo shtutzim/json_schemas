@@ -1,0 +1,1 @@
+{"additionalProperties": true, "required": ["name"], "type": "object", "properties": {"description": {"type": ["string", "null"]}, "name": {"minLength": 1, "type": "string", "pattern": "[\\S]+"}, "domain_id": {"minLength": 1, "type": "string", "pattern": "^[a-zA-Z0-9-]+$", "maxLength": 64}}}

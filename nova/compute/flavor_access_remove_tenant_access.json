@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['removeTenantAccess'], 'type': 'object', 'properties': {'removeTenantAccess': {'additionalProperties': False, 'required': ['tenant'], 'type': 'object', 'properties': {'tenant': {'minLength': 1, 'type': 'string', 'maxLength': 255}}}}}

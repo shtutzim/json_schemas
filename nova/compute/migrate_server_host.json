@@ -1,0 +1,1 @@
+{'minLength': 1, 'maxLength': 255, 'type': ['string', 'null'], 'pattern': '^[a-zA-Z0-9-._]*$'}

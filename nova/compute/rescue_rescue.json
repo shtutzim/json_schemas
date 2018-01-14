@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['rescue'], 'type': 'object', 'properties': {'rescue': {'additionalProperties': False, 'type': ['object', 'null'], 'properties': {'rescue_image_ref': {'type': 'string', 'format': 'uuid'}, 'adminPass': {'type': 'string'}}}}}

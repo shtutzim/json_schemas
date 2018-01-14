@@ -1,0 +1,1 @@
+{'additionalProperties': False, 'required': ['traits', 'resource_provider_generation'], 'type': 'object', 'properties': {'traits': {'items': {'minLength': 1, 'type': 'string', 'maxLength': 255}, 'type': 'array'}, 'resource_provider_generation': {'type': 'integer'}}}
